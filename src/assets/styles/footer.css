@@ -1,0 +1,377 @@
+@font-face {
+    font-family: robotoRegular;
+    src: url("../Font/roboto/Roboto-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: PoppinsRegular;
+    src: url("../Font/Poppins/Poppins-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: MontserratRegular;
+    src: url("../Font/Montserrat/Montserrat-Regular.ttf");
+  }
+  @font-face {
+    font-family: Montserratbold;
+    src: url("../Font/Montserrat/Montserrat-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: Montserratextra;
+    src: url("../Font/Montserrat/Montserrat-ExtraBold.ttf");
+  }
+
+.download{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background: var(--Dark-background, #252B42);
+    display: flex;
+    padding: 110px 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.download h1{
+    color: var(--Light-text, #FFF);
+    text-align: center;
+    
+    /* H2 */
+    font-family: Montserratextra;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 57px; /* 142.5% */
+    letter-spacing: 0.2px;
+}
+
+.download p{
+    color: var(--Light-Gray, #BDBDBD);
+    text-align: center;
+    
+    /* H4 */
+    font-family: Montserratregular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+    padding: 0px 40px;
+    margin-top: -30px;
+}
+
+.download h6{
+    display: none;
+}
+
+.free-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.free-btn2{
+    display: none;
+}
+
+.btn3{
+    width: 44%;
+    padding: 15px 10px;
+    color: var(--Light-text, #FFF);
+
+    /* H3 */
+    font-family: MontserratRegular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+    border-radius: 10px;
+    background: #FA4A0C;
+    
+    /* product drop shadow */
+    box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
+    border: none;
+}
+
+.btn4{
+    width: 51%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 1px solid var(--Light-background, #FFF);
+
+    /* H3 */
+    font-family: MontserratRegular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.6px;
+    background: transparent;
+    color: var(--Light-text, #FFF);
+    
+    /* product drop shadow */
+    box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
+    margin: 23px 0px;
+}
+
+.btn5:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn6:hover{
+    background-color: #FA4A0C;
+    border: none;
+}
+
+.footer-contents{
+    padding: 80px 0px 40px;
+}
+
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-image2{
+    margin: 0px 8px;
+    width: 12%;
+}
+
+.last p{
+    color: var(--second-text, #5C5C5C);
+    text-align: center;
+    
+    /* Subtitle */
+    font-family: robotoRegular;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
+    margin: 10px;
+}
+
+.last h6{
+    display: none;
+}
+
+.Bella2{
+    display: none;
+}
+
+@media (min-width:700px) {
+    @font-face {
+        font-family: robotoRegular;
+        src: url("../Font/roboto/Roboto-Regular.ttf");
+      }
+      
+      @font-face {
+        font-family: PoppinsRegular;
+        src: url("../Font/Poppins/Poppins-Regular.ttf");
+      }
+      
+      @font-face {
+        font-family: MontserratRegular;
+        src: url("../Font/Montserrat/Montserrat-Regular.ttf");
+      }
+      @font-face {
+        font-family: Montserratbold;
+        src: url("../Font/Montserrat/Montserrat-Bold.ttf");
+      }
+    
+      @font-face {
+        font-family: Montserratextra;
+        src: url("../Font/Montserrat/Montserrat-ExtraBold.ttf");
+      }
+    
+    .download{
+        width: 100%;
+        background-image: url(../img/Rectangle\ 47.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* padding: 0px 20px; */
+        
+        /* background: var(--Dark-background, #252B42); */
+        display: flex;
+        padding: 110px 24px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+    .download h1{
+        color: var(--Light-text, #FFF);
+        text-align: center;
+        
+        /* H2 */
+        font-family: MontserratRegular;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 57px; /* 142.5% */
+        letter-spacing: 0.2px;
+    }
+    
+    .download p{
+        color: var(--Light-Gray, #BDBDBD);
+        text-align: center;
+        
+        /* H4 */
+        font-family: MontserratRegular;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px; /* 158.333% */
+        letter-spacing: 0.2px;
+        padding: 0px 40px;
+        margin-top: 0px;
+        display: none;
+    }
+
+    .download h6{
+        color: #FFF;
+        text-align: center;
+        
+        /* H4 */
+        font-family: MontserratRegular;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px; /* 158.333% */
+        letter-spacing: 0.2px;
+        display: block;
+    }
+    
+    .free-btn{
+        display: none;
+    }
+
+    .free-btn2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 10px;
+        margin: 20px 0px;
+    }
+    
+    .btn5{
+        width: 11%;
+        padding: 12px 8px;
+        color: var(--Light-text, #FFF);
+    
+        /* H3 */
+        font-family: MontserratRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 150% */
+        letter-spacing: 0.1px;
+        border-radius: 10px;
+        background: #FA4A0C;
+        
+        /* product drop shadow */
+        box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
+        border: 1px solid #FA4A0C;
+        
+    }
+    
+    .btn6{
+        width: 14%;
+        /* margin: auto; */
+        padding: 11px 8px;
+        border-radius: 10px;
+        border: 1px solid var(--Light-background, #FFF);
+    
+        /* H3 */
+        font-family: MontserratRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 150% */
+        letter-spacing: 0.6px;
+        background: transparent;
+        color: var(--Light-text, #FFF);
+        
+        /* product drop shadow */
+        box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
+        margin: 0px 20px;
+    }
+
+    .btn5:hover{
+        background-color: transparent;
+        border: 1px solid #fff;
+    }
+
+    .btn6:hover{
+        background-color: #FA4A0C;
+        border: 1px solid #FA4A0C;
+    }
+    
+    .footer-contents{
+        padding: 80px 0px 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+
+    .Bella2{
+        display: block;
+        width: 15%;
+        margin: 0px 0px 0px 140px ;
+    }
+    
+    .food-image2{
+        width: 100%;
+    }
+    .twitter{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 90px 0px 0px ;
+        /* border: 2px solid greenyellow; */
+    }
+    
+    .twitter-image2{
+        margin: 0px 12px;
+        width: 12%;
+    }
+
+    .last{
+        width: 22%;
+        /* border: 2px solid blue; */
+    }
+    
+    .last p{
+        display: none;
+    }
+
+    .last h6{
+        color: var(--second-text, #5C5C5C);
+        text-align: center;
+        
+        /* Subtitle */
+        font-family: robotoRegular;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px; /* 150% */
+        letter-spacing: 0.1px;
+        display: block;
+    }
+}
