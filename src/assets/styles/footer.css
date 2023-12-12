@@ -100,6 +100,7 @@
     /* product drop shadow */
     box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
     border: none;
+    cursor: pointer;
 }
 
 .btn4{
@@ -121,6 +122,7 @@
     /* product drop shadow */
     box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
     margin: 23px 0px;
+    cursor: pointer;
 }
 
 .btn5:hover{
@@ -286,6 +288,7 @@
         /* product drop shadow */
         box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
         border: 1px solid #FA4A0C;
+        cursor: pointer;
         
     }
     
@@ -309,6 +312,7 @@
         /* product drop shadow */
         box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
         margin: 0px 20px;
+        cursor: pointer;
     }
 
     .btn5:hover{

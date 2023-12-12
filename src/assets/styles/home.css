@@ -101,6 +101,7 @@ padding: 27px 36px;
     letter-spacing: 0.1px;
     border-radius: 30px;
     background: #FA4A0C;
+    /* background-color: red; */
     
     /* product drop shadow */
     box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
@@ -123,6 +124,7 @@ padding: 27px 36px;
     width: 45%;
     padding: 10px;
     color: #FA4A0C;
+    /* background-color: red; */
 
     /* H3 */
     font-family: MontserratRegular;
@@ -423,6 +425,7 @@ hr{
         max-width: 100%;
         background-image: url(../img/Rectangle\ 48.png);
         background-repeat: no-repeat;
+        background-size: cover;
         padding: 0px 20px;
         /* height: 600px; */
     }
@@ -499,11 +502,12 @@ hr{
         letter-spacing: 0.1px;
         border-radius: 30px;
         background: #FA4A0C;
+        /* background-color: red; */
         margin: 23px 40px;
         
         /* product drop shadow */
         box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.07);
-        border: none;
+        border: 1px solid #FA4A0C;
         cursor: pointer;
     }
 
@@ -513,6 +517,7 @@ hr{
     }
     .btn2:hover{
         background-color: #FA4A0C;
+        border: 1px solid #FA4A0C;
         color: #fff;
         border: none;
     }
